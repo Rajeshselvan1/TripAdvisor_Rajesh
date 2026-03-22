@@ -3,10 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Website Name -->
     <title>Trip Advisor</title>
+    <!-- Link Stylesheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="navbar__container">
+        <div class="navbar1">
+            <div class="navbar__logo">
+                <img src="./src/logo.png" alt="Trip Advisor Logo">
+            </div>
+            <div class ="navbar__aiicon">
+                <i class="fa-solid fa-message" style="color: rgb(0, 0, 0);"></i>
+                <input type="button" value="Plan with AI">
+            </div>
+            <div class="navbar__options_1">
+                <a href="#">Discover</a>
+                <a href="#">Review</a>
+                <a href="#">More</a>
+            </div>
+            <div class="navbar__login">
+                <b><a href="#">Login</a></b>
+            </div>
+        </div> 
+    </div>       
+    <div class="header__container">
+        <h1 class="header__content__title">Where to?</h1>
+        <div class="header__content">
+            <div class ="header__content__group">
+                <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+                <a href="#" class="header__content__button">Search All</a>
+            </div>
+            <div class ="header__content__group">
+                <i class="fa-solid fa-hotel" style="color: rgb(0, 0, 0);"></i>
+                <a href="#" class="header__content__button">Hotels</a>
+            </div>
+            <div class ="header__content__group">
+                <i class="fa-solid fa-camera" style="color: rgb(0, 0, 0);"></i>
+                <a href="#" class="header__content__button">Things To Do</a>
+            </div>
+            <div class ="header__content__group">
+                <i class="fa-solid fa-utensils" style="color: rgb(0, 0, 0);"></i>
+                <a href="#" class="header__content__button">Restaurants</a>
+            </div>
+        </div>
+        <div class="header__search">
+            <i class="fa-solid fa-magnifying-glass" style="color: rgb(0, 0, 0);"></i>
+            <input type="search" placeholder="Search for hotels, restaurants and more..." class="search__search__searchbar">
+            <button type="Search" class="search__search__button"><i>Search</i></button>
+        </div>
+    </div>      
 </body>
 </html>
