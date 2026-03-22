@@ -42,8 +42,11 @@ body{
 .navbar__aiicon__button:focus{
     outline: none;
 }
-navbar__right{
+.navbar__right{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-left: 20px;
 }
 .nabar__language{
     border: solid 1px, black;
