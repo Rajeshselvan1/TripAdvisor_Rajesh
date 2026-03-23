@@ -251,3 +251,98 @@ body{
     width: 20px;
     height: 20px;
 }
+.photo__container__2{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7F7F7;
+    border-radius: 20px;
+    Width: auto;
+    max-width: 800px;
+    margin: 20px auto;
+}
+.photo_content_group__2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    cursor: pointer;
+}
+.photo__container_group__2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.photo_containerbutton__2{
+    padding: 10px;
+    border-radius:20px ;
+    border:1px;
+    border-color:#143C24;
+    align-content: end;
+    background-color:#143C24;
+    color: #FFFFFF;
+    
+}
+.photo_containerbutton__2:hover{
+    background-color: #143C29;
+}
+.photo__container__3{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: #002B12;
+    Width: auto;
+}
+.photo_content_group__3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    cursor: pointer;
+}
+.photo__container_group__3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.photo_containerbutton__3{
+    padding: 10px;
+    border-radius:20px ;
+    border:1px;
+    border-color:white;
+    align-content: end;
+    background-color:white;
+    color: black;
+    
+}
+.photo_containerbutton__3:hover{
+    background-color: #FFFFFF;
+}
+.container__footer{
+    margin-top: 60px;
+    background-color: #F7F7F7;
+    flex-grow: 1;
+    gap: 10px;
+}
+.container__footer__columns{
+    padding: 60px;
+    display: flex;
+    text-align: left; 
+}
+.container__footer__column{
+    margin-left:20px;
+}
+.container__footer__column h3, .container__footer__column h4{
+    padding: 5px;
+}
+
